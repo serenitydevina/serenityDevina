@@ -1,0 +1,119 @@
+*,
+::before
+::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Courier Prime",sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: inline;
+}
+
+.logo {
+   font-family:"Space Mono",sans-serif ;
+   font-weight: 600;
+   font-size: 30px;
+   margin-right: 20px;
+}
+.jumbotron{
+    font-size: 10px;
+    padding: 100px;
+    width: auto;
+    background-color: #F7F7F7;
+    text-align: center;
+    color: #323643;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: auto;
+    align-items: center;
+    background-color: #93DEFF;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    gap: 10rem ;
+    padding: 15px 25px;  
+}
+aside{
+    text-align: center;
+    display: block;
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+}
+aside img{
+    width: 75%;
+}
+aside table{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    box-shadow: 6px 6px 6px 6px black;
+    border-radius: 10px;
+    padding: 20px 25px 25px 20px;
+}
+h2{
+    text-align: center;
+}
+#aboutme img{
+    width: 250px;
+    border-radius: 10px;
+    border: 5px solid;
+    margin: 10px;
+}
+#aboutme {
+    display: flex;
+    flex-direction: row;
+}
+#aboutme p{
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+}
+#moreaboutme{
+    margin: 20px;
+}
+.content{
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+main{
+    padding: 20px;
+    gap: 1rem;
+    display: flex;
+}
+.more{
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-wrap: wrap;
+}
+.educationskill{
+    background-color: #93DEFF;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+footer {
+    background-color: #93DEFF ;
+    padding: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+nav{
+    padding: auto;
+    max-width: 100%;
+}
+
+
+}
